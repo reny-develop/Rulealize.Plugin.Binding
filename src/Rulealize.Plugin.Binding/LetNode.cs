@@ -14,7 +14,7 @@ namespace Rulealize.Plugin.Binding
     /// <remarks>
     /// <para>
     /// Binding is sequential, not simultaneous: each value expression is built and
-    /// evaluated with the earlier names already in scope. Othello's flip detection depends
+    /// evaluated with the earlier names already in scope. Reversi's flip detection depends
     /// on it, binding a ray and then immediately walking that ray:
     /// </para>
     /// <code>

@@ -34,7 +34,7 @@ Binds names in sequence and evaluates a body under them.
 ```jsonc
 {
   "op": "bind.let",
-  "bind": { "<name>": <expression>, ... },   // the key set is static
+  "bind": { "<name>": <expression>, … },     // the key set is static
   "in": <expression>
 }
 ```
