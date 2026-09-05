@@ -26,7 +26,7 @@ namespace Rulealize.Plugin.Binding
     {
         /// <inheritdoc />
         public PluginManifest Manifest { get; } =
-            new("Rulealize.Plugin.Binding", new Version(1, 0, 0), "bind", '@');
+            new("Rulealize.Plugin.Binding", new Version(1, 0, 1), "bind", '@');
 
         /// <inheritdoc />
         public void Register(IPluginRegistry registry)
